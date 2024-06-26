@@ -1,0 +1,87 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Experienced Android Developer with 4+ years' hands-on experience in designing, developing, and
+maintaining mobile apps. Skilled in collaborating with cross-functional teams to deliver high-quality
+solutions meeting client objectives. Actively engaged in self-learning and project and also bringing a
+diligent, enthusiastic, detail-oriented approach to fostering a positive work atmosphere.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Masters of Information Technology(Professional Computing) - Mobile and Cloud Computing"
+      subtitle="2022 to 2023 at Swinburne University of Technology, Melbourne, Australia"
+    />
+    <TimeLineElement
+      title="Bachelor of Computer Engineering"
+      subtitle="2009 to 2014 at Kantipur Engineering College, Lalitpur, Nepal"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Mobile Application Developer at Shiran Technologies, Lalitpur, Nepal"
+      subtitle="From Aug 2014 to Oct 2019"
+    >
+    ● Managed evolving client needs, ensuring timely delivery through iterative updates <br>
+    ● Mentored junior team in tech adoption and bug fixing <br>
+    ● Expanded project scope with client consultations, offering valuable suggestions and technical feedback <br>
+    ● Developed Android app from scratch, mastering new design patterns and third-party libraries, and maintained legacy projects <br>
+    </TimeLineElement>
+    <TimeLineElement
+      title="Store Team Member / Services Incharge at Coles, Melbourne, Australia"
+      subtitle="From Nov 2019 to Present "
+    >
+    ● Adapted quickly to acquire new skills for precise task fulfillment <br>
+    ● Fostered open communication to enhance team effectiveness <br>
+    ● When promoted to incharge for two years, supervised team of five, distributing responsibilities and addressing challenges, while promoting communication and providing training to junior
+    members <br>
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certifications</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Certification Name (with link)</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Java</li>
+    <li>Kotlin</li>
+    <li>Rest API</li>
+    <li>MVVM</li>
+    <li>Database Management</li>
+    <li>Git</li>
+    <li>Flutter</li>
+    <li>Jetpack Compose</li>
+    <li>React.Js</li>
+    <li>Agile</li>
+    </ul>
+</BaseLayout>
